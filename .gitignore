@@ -1,0 +1,4 @@
+permpoly
+results/chunks/
+results/test_chunks/
+__pycache__/

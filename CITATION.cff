@@ -1,0 +1,23 @@
+cff-version: 1.2.0
+message: "If you use this software or data, please cite it as below."
+title: "permsum-oeis: exact distributions of permutation sums and new OEIS terms"
+authors:
+  - family-names: "Nagib"
+    given-names: "Victor Nidal Bassem"
+date-released: 2026-10-30
+version: "1.0.0"
+url: "https://github.com/victornagib2/permsum-oeis"
+repository-code: "https://github.com/victornagib2/permsum-oeis"
+license: MIT
+keywords:
+  - OEIS
+  - permanent
+  - Glynn formula
+  - permutations
+  - Spearman's rho
+  - exact distribution
+abstract: >-
+  Exact distributions of S(p) = sum_k f(k, p(k)) over all permutations p of [n] for f = k*p(k), gcd(k, p(k))
+  and k^2*p(k), computed as permanents of the matrix (x^f(i,j)) with Glynn's formula at roots of unity modulo
+  two primes, and the resulting new terms of OEIS A073114, A073343, A189043, A180111, A180112 and
+  A179263-A179266.
