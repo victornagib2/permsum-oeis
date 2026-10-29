@@ -25,9 +25,9 @@ format in [results/bfiles](results/bfiles), and the full exact distributions (ev
 | [A179264](https://oeis.org/A179264) | Number of permutations p of 1..n with sum (i-p(i))^2 <= (n+1)*n/2. | n = 25 | n = 26..26 (1) |
 | [A179266](https://oeis.org/A179266) | Number of permutations p of 1..n with sum (i-p(i))^2 < (n+1)*n/2. | n = 25 | n = 26..26 (1) |
 | [A073343](https://oeis.org/A073343) | Number of permutations p of (1,2,3,...,n) such that Sum_{k=1..n} gcd(k,p(k)) = sigma(n). | n = 20 | n = 21..27 (7) |
-| [A189043](https://oeis.org/A189043) | For all permutations of [1..n]: number of distinct values taken by sum(k=1..n, k^2 * pi(k) ). | n = 14 | n = 15..21 (7) |
+| [A189043](https://oeis.org/A189043) | For all permutations of [1..n]: number of distinct values taken by sum(k=1..n, k^2 * pi(k) ). | n = 14 | n = 15..22 (8) |
 
-A189043: for 8 <= n <= 21 every value between the smallest and largest possible sum is attained except S_max - d and S_min + d for d in {1, 2, 4, 6, 8}, so a(n) = (n-1)n(n+1)^2/6 - 9 there. We conjecture this holds for all n >= 8.
+A189043: for 8 <= n <= 22 every value between the smallest and largest possible sum is attained except S_max - d and S_min + d for d in {1, 2, 4, 6, 8}, so a(n) = (n-1)n(n+1)^2/6 - 9 there. We conjecture this holds for all n >= 8.
 
 ## How to cite
 
